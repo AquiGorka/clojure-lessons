@@ -130,6 +130,33 @@ clj
 
 ---
 
+## 🧩 Practice Problems
+
+Once you've completed the foundational lessons, test your skills with our collection of **LeetCode-style problems** in the `problems/` folder!
+
+### What's Included
+- **15 Easy Problems** - Two Sum, Valid Parentheses, Climbing Stairs, and more
+- **15 Medium Problems** - Group Anagrams, 3Sum, Coin Change, Word Search, etc.
+- **10 Hard Problems** - Median of Sorted Arrays, N-Queens, Edit Distance, etc.
+
+### Why Practice in Clojure?
+- Learn to approach algorithmic problems with functional thinking
+- Discover how Clojure's rich standard library leads to elegant solutions
+- Prepare for coding interviews while deepening your Clojure knowledge
+
+### Getting Started
+```clojure
+;; Load a problem file
+(load-file "problems/easy_01_two_sum.clj")
+
+;; Run the tests
+(run-tests)
+```
+
+See [`problems/README.md`](problems/README.md) for the full problem index and solving tips.
+
+---
+
 ## 📖 Additional Resources
 
 ### Official
