@@ -354,7 +354,7 @@
           "Test 4 failed: negative numbers")
 
   ;; Test case 5: zero
-  (assert (= [0 1] (two-sum [0 4 3 0] 0))
+  (assert (= [0 3] (two-sum [0 4 3 0] 0))
           "Test 5 failed: zeros")
 
   (println "All tests passed!"))
